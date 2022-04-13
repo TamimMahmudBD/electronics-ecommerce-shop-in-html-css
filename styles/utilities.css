@@ -6,6 +6,13 @@
 a{
     color: #555;
 }
+h4{
+    font-size: 1.5rem;
+}
 p{
     color: #555;
+    font-size: 1.6rem;
+}
+.fa{
+    line-height: 15px;
 }
