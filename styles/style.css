@@ -143,3 +143,12 @@ h4{
 .product-row p{
     font-size: 14px;
 }
+.offer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.offer-row>.col-2-text{
+    padding: 0px 80px 0px 0px;
+}
