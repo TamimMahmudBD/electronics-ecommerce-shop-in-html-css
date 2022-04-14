@@ -25,7 +25,7 @@
                     <img src="images/logo.png" alt="" width="50px">
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="menuitems">
                         <li><a href="">Home</a></li>
                         <li><a href="">Products</a></li>
                         <li><a href="">Popular Item</a></li>
@@ -33,6 +33,7 @@
                         <li><a href="">Contact</a></li>
                     </ul>
                     <img src="images/cart.png" alt="" width="30px" height="30px">
+                    <img class="menu-icon" src="images/menu-icon-24.png" alt="" onclick="menutoggle()">
                 </nav>
             </div>
             <!------------Hero-ariya------------>
@@ -257,8 +258,9 @@
                 <div class="col-2 col-2-text">
                     <p>Exclusively Available on Electronics Shop</p>
                     <h1>Smart Band 4</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima illum temporibus officiis impedit? Temporibus.</p>
-                    <a href="" class="btn">Buy Now <i class="fa-solid fa-arrow-right"></i></a> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima illum temporibus officiis
+                        impedit? Temporibus.</p>
+                    <a href="" class="btn">Buy Now <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -269,7 +271,8 @@
             <div class="row">
                 <div class="col-3">
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui est quia natus facilis blanditiis deserunt, adipisci at porro ad ea aperiam illo quaerat tempore reprehenderit.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui est quia natus facilis blanditiis
+                        deserunt, adipisci at porro ad ea aperiam illo quaerat tempore reprehenderit.</p>
                     <div class="rating">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -278,11 +281,12 @@
                         <i class="fa fa-star-o"></i>
                     </div>
                     <img src="images/user1.png" alt="">
-                    <h3>Horles Ases</h3>
+                    <h3>Sifat Ikram</h3>
                 </div>
                 <div class="col-3">
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui est quia natus facilis blanditiis deserunt, adipisci at porro ad ea aperiam illo quaerat tempore reprehenderit.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui est quia natus facilis blanditiis
+                        deserunt, adipisci at porro ad ea aperiam illo quaerat tempore reprehenderit.</p>
                     <div class="rating">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -295,7 +299,8 @@
                 </div>
                 <div class="col-3">
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui est quia natus facilis blanditiis deserunt, adipisci at porro ad ea aperiam illo quaerat tempore reprehenderit.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui est quia natus facilis blanditiis
+                        deserunt, adipisci at porro ad ea aperiam illo quaerat tempore reprehenderit.</p>
                     <div class="rating">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -331,6 +336,65 @@
             </div>
         </div>
     </div>
+    <!-- ------footer----- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="app-logo">
+                        <img src="images/playstoe-link.png" alt="">
+                        <img src="images/apstore-link.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png" alt="" width="50px">
+                    <p>Electronics Store | Ecommerce Website <br> Electronics eCommerce store For Buy any Product.
+                    <p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>
+                        <ul>
+                            <li>Cupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affliate</li>
+                        </ul>
+                    </h3>
+                </div>
+                <div class="footer-col-4">
+                    <h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Youtube</li>
+                            <li>Instragram</li>
+                        </ul>
+                    </h3>
+                </div>
+            </div>
+            <hr>
+            <div class="Copyright">
+                <p>&copy; Copyright Tamim-Jr | Electronics Store | Ecommerce Website</p>
+            </div>
+        </div>
+    </div>
+    <!-- --------js for toggle menu------ -->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+        function menutoggle(){
+            if (menuitems.style.maxHeight == "0px")
+            {
+                menuitems.style.maxHeight = "200px";
+            }
+            else
+            {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
 </body>
 
 </html>

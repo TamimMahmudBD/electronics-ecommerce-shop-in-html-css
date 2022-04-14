@@ -16,3 +16,14 @@ p{
 .fa{
     line-height: 15px;
 }
+hr{
+    background: #555;
+    height: 1px;
+    border: none;
+}
+.menu-icon{
+    width: 28px;
+    margin-top: -28px;
+    margin-left: 45px;
+    display: none;
+}

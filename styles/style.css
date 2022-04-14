@@ -161,9 +161,9 @@ h4{
     padding: 0px 80px 0px 0px;
 }
 /* ---------- testimonial -------------- */
-.testimonial{
+/* .testimonial{
     padding-top:50px;
-}
+} */
 .testimonial .col-3{
     text-align: center;
     padding: 40px 20px;
@@ -195,7 +195,7 @@ h4{
 }
 /* -----brand------- */
 .brands{
-    margin: 100px;
+    margin: 50px 0px;
 }
 .col-5{
     width: 100px;
@@ -203,5 +203,54 @@ h4{
 .col-5 img{
     width: 100%;
     cursor: pointer;
-    
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+/* --------footer--------- */
+.footer{
+    background: #000;
+    color: #868585;
+    font-size: 15px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 220px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+    text-align: left;
+}
+.app-logo{
+    margin-top: 15px;
+}
+.app-logo img{
+    width: 140px;
+    border-radius: 5px;
+}
+.footer-col-2{
+    flex-basis: 30%;
+}
+.footer-col-2 img{
+    margin: 10px 0px 10px 0px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+.footer-col-3 ul, .footer-col-4 ul{
+    list-style: none;
+}
+.Copyright{
+    margin-top: 15px;
+    text-align: center;
 }
