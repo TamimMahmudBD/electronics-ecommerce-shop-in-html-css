@@ -74,6 +74,7 @@ nav ul li a{
     background-color: #ffd6d6;
     border: 1px solid rgb(200 87 94);
 }
+/* ----------Nevigation-Menu-and-hero-section-end---------- */
 /* -----------------Featured-canegories-start------------- */
 .small-container{
     max-width: 1080px;
@@ -94,7 +95,9 @@ nav ul li a{
     width: 100%;
     cursor: pointer;
 }
-/* -----------------Featured-products-start------------- */
+/* -----------------Featured-products-end------------- */
+/* -----------------Latest-Products-start------------- */
+
 .product-row{
     margin: 10px 0 25px 0;
     display: flex;
@@ -143,6 +146,11 @@ h4{
 .product-row p{
     font-size: 14px;
 }
+/* -----------------Latest-Products-end------------- */
+/* ---------------------offer-section-start-------------- */
+.offer{
+    background: radial-gradient(#fff, #ffd6d6);
+}
 .offer-row{
     display: flex;
     align-items: center;
@@ -151,4 +159,49 @@ h4{
 }
 .offer-row>.col-2-text{
     padding: 0px 80px 0px 0px;
+}
+/* ---------- testimonial -------------- */
+.testimonial{
+    padding-top:50px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 5px 0 #868585;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.fa-quote-left{
+    font-size: 34px;
+    color: rgb(200 87 94);
+}
+.testimonial img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.testimonial .col-3 p{
+    font-size: 12px 0;
+    margin: 12px;
+    color: #777;
+}
+.testimonial .col-3 h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+}
+/* -----brand------- */
+.brands{
+    margin: 100px;
+}
+.col-5{
+    width: 100px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    
 }
