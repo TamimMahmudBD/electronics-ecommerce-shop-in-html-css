@@ -13,6 +13,7 @@ html{
 }
 .logo {
     padding: 10px 0px;
+    cursor: pointer;
 }
 .navbar{
     display: flex;
@@ -50,6 +51,7 @@ nav ul li a{
     margin: 0 auto;
     max-width: 60%;
     padding: 50px 0;
+    cursor: pointer;
 }
 .col-2 h1{
     font-size: 4rem;
@@ -196,6 +198,7 @@ h4{
 /* -----brand------- */
 .brands{
     margin: 50px 0px;
+    padding: 10px;
 }
 .col-5{
     width: 100px;
@@ -235,13 +238,16 @@ h4{
 }
 .app-logo img{
     width: 140px;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
 }
 .footer-col-2{
     flex-basis: 30%;
 }
 .footer-col-2 img{
     margin: 10px 0px 10px 0px;
+    cursor: pointer;
 }
 .footer-col-3, .footer-col-4{
     flex-basis: 12%;
