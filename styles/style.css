@@ -64,7 +64,7 @@ nav ul li a{
     background: rgb(200 87 94);
     border: 1px solid rgb(200 87 94);
     color: rgb(255 255 255);
-    padding: 8px 30px;
+    padding: 12px 30px;
     margin: 30px 0;
     border-radius: 30px;
     text-decoration: none;
@@ -73,13 +73,13 @@ nav ul li a{
 .btn:hover{
     transition: .5s linear;
     color: black;
-    background-color: #ffd6d6;
+    background-color: transparent;
     border: 1px solid rgb(200 87 94);
 }
 /* ----------Nevigation-Menu-and-hero-section-end---------- */
 /* -----------------Featured-canegories-start------------- */
 .small-container{
-    max-width: 1080px;
+    max-width: 80%;
     margin: 35px auto;
     padding: 0px 25px;
 }
